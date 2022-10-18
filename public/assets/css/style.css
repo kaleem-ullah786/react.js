@@ -1,0 +1,552 @@
+body {
+    font-family: 'Montserrat-';
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+
+
+h2 {
+    font-size: 3rem;
+    white-space: nowrap;
+    text-overflow: clip;
+
+}
+
+h3 {
+
+    white-space: nowrap;
+    text-overflow: clip;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bold\;
+}
+
+
+
+p {
+    color: #8f8f8fff;
+    font-family: 'outfit', sans-serif;
+    font-size: 14px;
+}
+
+#title {
+    color: #fff;
+    background-color: #40BEFF;
+    text-align: left;
+}
+
+/* headings */
+
+.big-heading {
+    margin-top: 40px;
+
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: justify;
+
+}
+
+.container-fluid {
+
+    box-shadow: -4px 18px 39px -18px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -4px 18px 39px -18px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 18px 39px -18px rgba(0, 0, 0, 0.75);
+    height: 50px;
+    text-align: right;
+}
+
+/* navbar */
+.navbar {
+    color: black;
+    padding: 0%;
+}
+
+.navbar-brand {
+    padding: 2% 10%;
+    font-size: 25px;
+}
+
+.main-icon {
+    width: 50px;
+    color: #289FED;
+}
+
+.nav-item {
+    padding: 3px 15px;
+    color: #000000;
+}
+
+a:hover {
+    color: #40BEFF;
+}
+
+/* top container */
+
+.top-container {
+    text-align: left;
+    padding: 10% 6%;
+}
+
+.left-bar {
+    position: relative;
+    margin-left: 0;
+
+}
+
+/* download-button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f3f7fa;
+    width: 40%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(246, 247, 248);
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+
+}
+
+.title-btn:hover {
+    color: #ffffff;
+    background-color: #40beff;
+}
+
+/* title-image */
+
+.title-image {
+    width: 600px;
+    height: 500px;
+    margin: 20 200 20% 2%;
+    position: absolute;
+    text-align: left;
+
+}
+
+.title-ie {
+    margin-bottom: 20px;
+}
+
+/* FEATURES */
+#features {
+    color: black;
+    padding-top: 55PX;
+    padding: 7% 15%;
+    position: relative;
+
+
+}
+
+.title-text {
+    color: #0f0f0f;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
+    text-align: center;
+    padding: 7% 15%;
+
+}
+
+.feature-box {
+    padding: 4.5%;
+
+}
+
+.icon {
+    color: #0F3460;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #289FED;
+}
+
+#feature-box2 {
+    padding: 5%;
+    background-color: #F9F9FF;
+}
+
+
+.feature-box-secondHeading {
+    text-align: left;
+}
+
+.feature-btn {
+    font-family: 'Poppins', sans-serif;
+    background-color: #40BEFF;
+    width: 40%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+
+}
+
+.feature-btn:hover {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.feature-img {
+    margin-left: 15px;
+    height: 60%;
+    width: 40%;
+    box-shadow: -13px -1px 23px -5px #738268;
+    box-shadow: -13px -1px 23px -5px #738268;
+
+}
+
+/* unique-features/// */
+
+#unique-features {
+    padding-top: 55PX;
+    padding: 7% 15%;
+    position: relative;
+    background-color: #fff;
+}
+
+.services {
+    background-color: #F9F9FF;
+    font-size: 1rem;
+    padding: 7%;
+
+}
+
+.services:hover {
+    background-color: #289FED;
+    color: #f3f7fa;
+    padding: 9% 7%;
+    box-shadow: -4px 18px 39px -18px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -4px 18px 39px -18px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -4px 18px 39px -18px rgba(0, 0, 0, 0.75);
+}
+
+
+.unique-img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* video// */
+
+.vmain {
+    color: #1405e9;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+.video-text {
+    width: 250px;
+    position: relative;
+    top: -130px;
+    left: 75%;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.video-text1 {
+    width: 200px;
+    color: #dad612;
+    position: relative;
+    top: -125px;
+    left: 77%;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+/* some-features// */
+
+#some-features {
+    background-color: #ffffff;
+    padding-top: 55PX;
+    padding: 7% 15%;
+
+
+}
+
+.history-text {
+    margin: 0;
+
+    margin-top: 10px;
+    float: left;
+    font-size: 20px;
+
+}
+
+.date {
+    margin-top: 8px;
+
+}
+
+.loc-icon {
+    margin-right: 7px;
+
+}
+
+.turkey-loc {
+    margin-right: 58%;
+}
+
+.locatoin {
+    margin-right: 46%;
+}
+
+.madina-locatoin {
+
+    margin-right: 58%;
+}
+
+.fimg {
+    margin-right: 80px;
+    width: 250px;
+    height: 35%px;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 5px 5px 31px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 5px 5px 0px 0px #289FED, 10px 10px 0px 0px #5FB8FF, 15px 15px 0px 0px #A1D8FF, 5px 5px 31px 0px rgba(0, 0, 0, 0.09);
+}
+
+.menu-heading {
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-right: px;
+    margin-left: 0;
+    padding-right: 3px;
+}
+
+.menu-icon {
+    margin-left: 80px;
+}
+
+.s-features {
+    width: 300px;
+    height: 60%;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+/* pricing section// */
+
+#pricing {
+    background-color: #F9F9FF;
+
+}
+
+.container {
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 1.625em;
+    padding: 3% 5% 7%;
+    text-align: left;
+}
+
+.main {
+    background-color: #fff;
+}
+
+.top,
+.bottom-sec {
+
+    padding: 5% 5% 5%;
+    padding-left: 2rem;
+}
+
+.bottom-sec {
+    text-align: initial;
+    padding: 3% 3% 3%;
+    padding-left: 2rem;
+}
+
+.end-sec {
+    padding: 3% 1%;
+
+}
+
+li {
+    list-style: none;
+    color: #8f8f8fff;
+    padding: 3% 1%;
+    margin-left: 0;
+    text-align: left;
+}
+
+.btn {
+
+    background-color: #000000;
+    border-radius: 3px;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    padding: 9px 32px;
+    text-decoration: none;
+
+
+}
+
+.btn:hover {
+    background-color: #d1d4d4;
+    color: #000000;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+/* Q&A section// */
+
+.counter-left {
+    text-align: right;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.faq-content {
+    width: min-content;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 1.625em;
+}
+
+
+/* cta// */
+
+#cta {
+    background-color: #40BEFF;
+}
+
+.buttons {
+    padding: 20px 30px 0 30px;
+    margin: 20px;
+    border: 1px solid transparent;
+    background-color: #fff;
+    color: #222;
+}
+
+.apple {
+    font-size: 60px;
+    padding-right: 20px;
+    color: #40BEFF;
+}
+
+
+
+.buttons p span {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+    margin-right: 7px;
+}
+
+
+.buttons:hover {
+    background-color: #3EB1FF;
+    color: #fff;
+    border: 1px solid #000000;
+}
+
+/* footer// */
+#footer {
+    background-color: #222;
+    color: #fff;
+
+}
+
+.footer-nav {
+    list-style: none;
+    padding-left: 0;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+
+.new-btn {
+    background-color: #3EB1FF;
+    width: 100%;
+    padding: 12px 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(32, 113, 206);
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #fff;
+
+}
+
+span {
+    margin-left: 20px;
+    text-align: right;
+}
+
+
+a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}
+
+.intstafeed {
+    padding-left: 0;
+}
+
+.insta-img {
+    height: 40px;
+    width: 40px;
+}
+
+.footer-icon {
+    text-align: right;
+
+
+}
